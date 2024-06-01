@@ -1,2 +1,2 @@
-# trendyol-hesap-generator
+# Trendyol Hesap Oluşturucu
 Projenize kolaylıkla dahil edebileceğiniz bir hesap oluşturucudur.
