@@ -25,7 +25,7 @@ namespace Trendyol
         string email = string.Empty;
         public TrendyolAccountCreator()
         {
-            tstate = Guid.NewGuid().ToString().Substring(0, 16);
+            tstate = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 16);
             tparent = Guid.NewGuid().ToString().Replace("-", "");
             deviceID = Guid.NewGuid().ToString();
             pid = Guid.NewGuid().ToString();
