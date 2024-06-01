@@ -69,7 +69,7 @@ namespace Trendyol
                 req.AddHeader("accept-encoding", "gzip");
 
                 req.IgnoreProtocolErrors = true;
-                req.Proxy = ProxyClient.Parse(ProxyType.HTTP, "45.155.68.129:8133:flqorbdx:Charon0140");
+                //req.Proxy = ProxyClient.Parse(ProxyType.HTTP, "HOST:PORT:USER:PASS");
                 var res = req.Post("https://memberpublic-sdc.trendyol.com/member-member-login-app-service/v3/register/user", "{\"guestToken\":\"\",\"preferences\":[{\"id\":0,\"isAccept\":false}],\"regulation\":{\"isConditionOfMembershipApproved\":true,\"isProtectionOfPersonalDataApproved\":true},\"user\":" +
                     "{\"email\":\"" + email + "\",\"gender\":2,\"isTyPrivacyStatementConsent\":false,\"" +
                     "password\":\"Sero@1985Sero\",\"storeFrontId\":\"1\",\"userType\":\"MEMBER\"},\"verifications\":[]}",
