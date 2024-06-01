@@ -72,7 +72,7 @@ namespace Trendyol
                 //req.Proxy = ProxyClient.Parse(ProxyType.HTTP, "HOST:PORT:USER:PASS");
                 var res = req.Post("https://memberpublic-sdc.trendyol.com/member-member-login-app-service/v3/register/user", "{\"guestToken\":\"\",\"preferences\":[{\"id\":0,\"isAccept\":false}],\"regulation\":{\"isConditionOfMembershipApproved\":true,\"isProtectionOfPersonalDataApproved\":true},\"user\":" +
                     "{\"email\":\"" + email + "\",\"gender\":2,\"isTyPrivacyStatementConsent\":false,\"" +
-                    "password\":\"Sero@1985Sero\",\"storeFrontId\":\"1\",\"userType\":\"MEMBER\"},\"verifications\":[]}",
+                    "password\":\"tt5]JcPQosnEL\",\"storeFrontId\":\"1\",\"userType\":\"MEMBER\"},\"verifications\":[]}",
                     "application/json; charset=UTF-8");
 
                 Console.WriteLine(res);
@@ -118,7 +118,7 @@ namespace Trendyol
                 req.IgnoreProtocolErrors = true;
 
                 var res = req.Post("https://memberpublic-sdc.trendyol.com/member-member-login-app-service/v3/register/user", "{\"guestToken\":\"\",\"preferences\":[{\"id\":0,\"isAccept\":false}],\"regulation\":{\"isConditionOfMembershipApproved\":true,\"isProtectionOfPersonalDataApproved\":true},\"user\":" +
-                    "{\"email\":\"" + email + "\",\"gender\":2,\"isTyPrivacyStatementConsent\":false,\"password\":\"Sero@1985Sero\",\"storeFrontId\":\"1\",\"userType\":\"MEMBER\"},\"verifications\":" +
+                    "{\"email\":\"" + email + "\",\"gender\":2,\"isTyPrivacyStatementConsent\":false,\"password\":\"tt5]JcPQosnEL\",\"storeFrontId\":\"1\",\"userType\":\"MEMBER\"},\"verifications\":" +
                     "[{\"code\":\"" + code + "\",\"type\":\"EMAIL\"}]}",
                     "application/json; charset=UTF-8");
 
